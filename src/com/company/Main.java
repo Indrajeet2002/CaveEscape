@@ -2376,7 +2376,6 @@ class Player {
     }
 
     public Item getCurrentTool(){
-        //i %= (inventory.size())+1;
         if(!inventory.isEmpty()){
             return inventory.get(i);
         }
